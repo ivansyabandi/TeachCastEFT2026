@@ -26,25 +26,11 @@ import { db } from './firebase';
 
 // Constants from original code
 const ALL_CODES = [
-  "EFT-A1B2-C3D4","EFT-E5F6-G7H8","EFT-I9J0-K1L2","EFT-M3N4-O5P6","EFT-Q7R8-S9T0",
-  "EFT-U1V2-W3X4","EFT-Y5Z6-A7B8","EFT-C9D0-E1F2","EFT-G3H4-I5J6","EFT-K7L8-M9N0",
-  "EFT-O1P2-Q3R4","EFT-S5T6-U7V8","EFT-W9X0-Y1Z2","EFT-A3B4-C5D6","EFT-E7F8-G9H0",
-  "EFT-I1J2-K3L4","EFT-M5N6-O7P8","EFT-Q9R0-S1T2","EFT-U3V4-W5X6","EFT-Y7Z8-A9B0",
-  "EFT-C1D2-E3F4","EFT-G5H6-I7J8","EFT-K9L0-M1N2","EFT-O3P4-Q5R6","EFT-S7T8-U9V0",
-  "EFT-W1X2-Y3Z4","EFT-A5B6-C7D8","EFT-E9F0-G1H2","EFT-I3J4-K5L6","EFT-M7N8-O9P0",
-  "EFT-Q1R2-S3T4","EFT-U5V6-W7X8","EFT-Y9Z0-A1B2","EFT-C3D4-E5F6","EFT-G7H8-I9J0",
-  "EFT-K1L2-M3N4","EFT-O5P6-Q7R8","EFT-S9T0-U1V2","EFT-W3X4-Y5Z6","EFT-A7B8-C9D0",
-  "EFT-E1F2-G3H4","EFT-I5J6-K7L8","EFT-M9N0-O1P2","EFT-Q3R4-S5T6","EFT-U7V8-W9X0",
-  "EFT-Y1Z2-A3B4","EFT-C5D6-E7F8","EFT-G9H0-I1J2","EFT-K3L4-M5N6","EFT-O7P8-Q9R0"
+ "XXF-GM9-TGY","HMJ-P53-H8X","Q5D-8NY-TC4","EB9-H9E-4S2","SCD-FVZ-6WK","8YP-5H6-VNX","KER-DHA-57R","PD2-GUV-L83","T76-KFT-FSC","9YP-MCL-GLW","5RT-XNT-TVG","V87-SHT-DC4","CGH-7LH-S5G","Z25-QSH-FQ7","N24-T9R-GTZ","85N-3TJ-N3C","ZQ4-3MB-DCR","SMP-WBL-BRK","393-X7K-NVM","CC3-VAN-SYJ","DA7-JJK-45W","D45-XNS-XNH","L3E-Q6X-EH6","LPH-4J3-GY4","HEK-HAF-VCL","SS5-MM6-YR3","MSS-92D-54R","ZZD-XVF-2MB","AKD-PUA-A3Q","EEK-CBN-ERT","U85-XQM-UVH","JRN-TH7-9S7","5C9-CKA-Z26","2AU-6CA-B82","8CJ-N4G-EWJ","WFQ-EXL-RT6","JHD-NDB-VGQ","VDD-6RJ-W3X","UB4-FDB-GPB","2DP-854-P3C","57X-D9L-9G4","D98-47R-A7S","9RK-TRD-Q5K","6YV-4HW-T5C","YSZ-9SU-8QV","67K-W23-EAY","DBM-E3V-R3J","NGM-JAK-BWX","DV4-TRY-APU","CWY-XSS-FHE"
 ];
 const ADMIN_PW = "#AdminEFT2026";
 const CAMPUSES = [
-  "Universitas Gadjah Mada",
-  "Universitas Indonesia",
-  "Universitas Brawijaya",
-  "Universitas Diponegoro",
   "Universitas Islam Negeri Sunan Kalijaga",
-  "Lainnya"
 ];
 
 // Helper functions
@@ -489,7 +475,7 @@ function Leaderboard({ onNavigate }: { onNavigate: (p: Page) => void, key?: stri
               className="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all active:scale-95"
             >
               <Plus className="w-4 h-4" />
-              <span className="hidden sm:inline">Add Score</span>
+              <span className="hidden sm:inline">Input Poin</span>
             </button>
             <button 
               onClick={() => onNavigate('home')}
