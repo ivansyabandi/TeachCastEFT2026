@@ -1,0 +1,6 @@
+{
+  "name": "English Fluency Test Portal",
+  "description": "A modern portal for students to redeem test codes and track rankings for the English Fluency Test (EFT).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
